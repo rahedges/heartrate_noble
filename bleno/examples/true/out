@@ -1,0 +1,433 @@
+Wed, 29 Jan 2014 14:22:25 GMT hci-ble hciBle = /home/rhedges/sandbox/node_modules/bleno/lib/linux/../../build/Release/hci-ble
+Wed, 29 Jan 2014 14:22:25 GMT l2cap-ble l2capBle = /home/rhedges/sandbox/node_modules/bleno/lib/linux/../../build/Release/l2cap-ble
+Wed, 29 Jan 2014 14:22:25 GMT l2cap-ble handles = [
+  {},
+  {
+    "type": "service",
+    "uuid": "1800",
+    "startHandle": 1,
+    "endHandle": 5
+  },
+  {
+    "type": "characteristic",
+    "uuid": "2a00",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 2,
+    "valueHandle": 3
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 3,
+    "value": "Buffer('54727562756e74752d4865646765486f67', 'hex')"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "2a01",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 4,
+    "valueHandle": 5
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 5,
+    "value": "Buffer('8000', 'hex')"
+  }
+]
+Wed, 29 Jan 2014 14:22:25 GMT l2cap-ble buffer length:28
+Wed, 29 Jan 2014 14:22:25 GMT l2cap-ble buffer = "bind success\nlisten success\n"
+Wed, 29 Jan 2014 14:22:25 GMT l2cap-ble line = bind success
+Wed, 29 Jan 2014 14:22:25 GMT l2cap-ble line = listen success
+Wed, 29 Jan 2014 14:22:25 GMT hci-ble buffer = "adapterState poweredOn\n"
+Wed, 29 Jan 2014 14:22:25 GMT hci-ble line = adapterState poweredOn
+Wed, 29 Jan 2014 14:22:25 GMT hci-ble adapterState = poweredOn
+Wed, 29 Jan 2014 14:22:25 GMT bleno stateChange poweredOn
+Wed, 29 Jan 2014 14:22:25 GMT bleno No call back in advertising start
+Wed, 29 Jan 2014 14:22:25 GMT hci-ble startAdvertising: name = WorkoutStats, serviceUuids = [
+  "0d27f4100000DEADBEEF0BADF00DFEED"
+]
+Wed, 29 Jan 2014 14:22:25 GMT hci-ble serviceUuid.length= 16
+Wed, 29 Jan 2014 14:22:25 GMT hci-ble serviceUuid[0] string:0d27f4100000DEADBEEF0BADF00DFEED hex:edfe0df0ad0befbeadde000010f4270d
+Wed, 29 Jan 2014 14:22:25 GMT hci-ble serviceUuids128bit.length: 1
+Wed, 29 Jan 2014 14:22:25 GMT hci-ble advertisementDataLength: 21
+Wed, 29 Jan 2014 14:22:25 GMT hci-ble startAdvertisingWithEIRData: advertisement data = 0201051106edfe0df0ad0befbeadde000010f4270d, scan data = 0d08576f726b6f75745374617473
+Wed, 29 Jan 2014 14:22:25 GMT bleno advertisingStart: null
+Wed, 29 Jan 2014 14:22:25 GMT l2cap-ble handles = [
+  {},
+  {
+    "type": "service",
+    "uuid": "1800",
+    "startHandle": 1,
+    "endHandle": 5
+  },
+  {
+    "type": "characteristic",
+    "uuid": "2a00",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 2,
+    "valueHandle": 3
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 3,
+    "value": "Buffer('54727562756e74752d4865646765486f67', 'hex')"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "2a01",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 4,
+    "valueHandle": 5
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 5,
+    "value": "Buffer('8000', 'hex')"
+  },
+  {
+    "type": "service",
+    "uuid": "0d27f4100000DEADBEEF0BADF00DFEED",
+    "startHandle": 6,
+    "endHandle": 54
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100001DEADBEEF0BADF00DFEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 7,
+    "valueHandle": 8
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 8,
+    "value": "400"
+  },
+  {
+    "type": "descriptor",
+    "handle": 9,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Workout Time"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100002DEADBEEF0BADF00DFEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 10,
+    "valueHandle": 11
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 11,
+    "value": "Buffer('3032', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 12,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Horizontal Distance"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100003DEADBEEF0BADF00DFEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 13,
+    "valueHandle": 14
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 14,
+    "value": "Buffer('3033', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 15,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Vertical Distance"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100004DEADBEEF0BADF00DFEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 16,
+    "valueHandle": 17
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 17,
+    "value": "Buffer('3034', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 18,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Calories"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100005DEADBEEF0BADF00DFEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 19,
+    "valueHandle": 20
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 20,
+    "value": "Buffer('3035', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 21,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Speed"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100006DEADBEEF0BADF00DFEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 22,
+    "valueHandle": 23
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 23,
+    "value": "Buffer('3036', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 24,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Pace"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100007DEADBEEF0BADF00DFEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 25,
+    "valueHandle": 26
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 26,
+    "value": "Buffer('3037', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 27,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Cadence"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100008DEADBEEF0BADF00DFEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 28,
+    "valueHandle": 29
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 29,
+    "value": "Buffer('3038', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 30,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Grade"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100009DEADBEEF0BADF00DFEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 31,
+    "valueHandle": 32
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 32,
+    "value": "Buffer('313835', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 33,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Weight"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f410000ADEADBEEF0BADF00DFEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 34,
+    "valueHandle": 35
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 35,
+    "value": "Buffer('3439', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 36,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Age"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f410000BDEADBEEF0BADF00DFEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 37,
+    "valueHandle": 38
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 38,
+    "value": "Buffer('4d616c65', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 39,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Gender"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f410000CDEADBEEF0BADF00DFEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 40,
+    "valueHandle": 41
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 41,
+    "value": "Buffer('313234', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 42,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Heart Rate"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f410000DDEADBEEF0BADF00DFEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 43,
+    "valueHandle": 44
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 44,
+    "value": "Buffer('3044', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 45,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "METs"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f410000EDEADBEEF0BADF00DFEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 46,
+    "valueHandle": 47
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 47,
+    "value": "Buffer('3045', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 48,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Power"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f410000FDEADBEEF0BADF00DFEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 49,
+    "valueHandle": 50
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 50,
+    "value": "Buffer('313039', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 51,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Heart Rate Avg"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100007DEADBEEF0BADF00DFEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 52,
+    "valueHandle": 53
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 53,
+    "value": "Buffer('313536', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 54,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Heart Rate Max"
+  }
+]
+Wed, 29 Jan 2014 14:22:25 GMT bleno servicesSet

@@ -1,0 +1,540 @@
+Fri, 24 Jan 2014 19:38:56 GMT hci-ble hciBle = /home/rhedges/sandbox/node_modules/bleno/lib/linux/../../build/Release/hci-ble
+Fri, 24 Jan 2014 19:38:56 GMT l2cap-ble l2capBle = /home/rhedges/sandbox/node_modules/bleno/lib/linux/../../build/Release/l2cap-ble
+Fri, 24 Jan 2014 19:38:56 GMT l2cap-ble handles = [
+  {},
+  {
+    "type": "service",
+    "uuid": "1800",
+    "startHandle": 1,
+    "endHandle": 5
+  },
+  {
+    "type": "characteristic",
+    "uuid": "2a00",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 2,
+    "valueHandle": 3
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 3,
+    "value": "Buffer('54727562756e74752d4865646765486f67', 'hex')"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "2a01",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 4,
+    "valueHandle": 5
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 5,
+    "value": "Buffer('8000', 'hex')"
+  }
+]
+Fri, 24 Jan 2014 19:38:56 GMT l2cap-ble buffer = "bind success\nlisten success\n"
+Fri, 24 Jan 2014 19:38:56 GMT l2cap-ble line = bind success
+Fri, 24 Jan 2014 19:38:56 GMT l2cap-ble line = listen success
+Fri, 24 Jan 2014 19:38:56 GMT hci-ble buffer = "adapterState poweredOn\n"
+Fri, 24 Jan 2014 19:38:56 GMT hci-ble line = adapterState poweredOn
+Fri, 24 Jan 2014 19:38:56 GMT hci-ble adapterState = poweredOn
+Fri, 24 Jan 2014 19:38:56 GMT bleno stateChange poweredOn
+Fri, 24 Jan 2014 19:38:56 GMT hci-ble startAdvertising: name = WorkoutStats, serviceUuids = [
+  "0d27f4100000-DEADBEEF-0BAD-F00D-FEED"
+]
+Fri, 24 Jan 2014 19:38:56 GMT hci-ble startAdvertisingWithEIRData: advertisement data = 0201050303edfe, scan data = 0d08576f726b6f75745374617473
+Fri, 24 Jan 2014 19:38:56 GMT bleno advertisingStart: null
+Fri, 24 Jan 2014 19:38:56 GMT l2cap-ble handles = [
+  {},
+  {
+    "type": "service",
+    "uuid": "1800",
+    "startHandle": 1,
+    "endHandle": 5
+  },
+  {
+    "type": "characteristic",
+    "uuid": "2a00",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 2,
+    "valueHandle": 3
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 3,
+    "value": "Buffer('54727562756e74752d4865646765486f67', 'hex')"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "2a01",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 4,
+    "valueHandle": 5
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 5,
+    "value": "Buffer('8000', 'hex')"
+  },
+  {
+    "type": "service",
+    "uuid": "180a",
+    "startHandle": 6,
+    "endHandle": 18
+  },
+  {
+    "type": "characteristic",
+    "uuid": "2A29",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 7,
+    "valueHandle": 8
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 8,
+    "value": "Buffer('54727565204669746e657373', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 9,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Manufacturer Name"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "2A24",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 10,
+    "valueHandle": 11
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 11,
+    "value": "Buffer('56657261637469747920585858', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 12,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Model Number String"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "2a25",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 13,
+    "valueHandle": 14
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 14,
+    "value": "Buffer('30313233343536', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 15,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Veracity serial number"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "2a27",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 16,
+    "valueHandle": 17
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 17,
+    "value": "Buffer('3534333231', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 18,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "hardware version"
+  },
+  {
+    "type": "service",
+    "uuid": "0d27f4100000-DEADBEEF-0BAD-F00D-FEED",
+    "startHandle": 19,
+    "endHandle": 64
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100001-DEADBEEF-0BAD-F00D-FEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 20,
+    "valueHandle": 21
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 21,
+    "value": "Buffer('3130', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 22,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Workout Time"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100002-DEADBEEF-0BAD-F00D-FEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 23,
+    "valueHandle": 24
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 24,
+    "value": "Buffer('6666', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 25,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Horizontal Distance"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100003-DEADBEEF-0BAD-F00D-FEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 26,
+    "valueHandle": 27
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 27,
+    "value": "Buffer('3330', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 28,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Vertical Distance"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100005-DEADBEEF-0BAD-F00D-FEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 29,
+    "valueHandle": 30
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 30,
+    "value": "Buffer('3330', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 31,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Speed"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100006-DEADBEEF-0BAD-F00D-FEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 32,
+    "valueHandle": 33
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 33,
+    "value": "Buffer('3330', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 34,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Pace"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100007-DEADBEEF-0BAD-F00D-FEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 35,
+    "valueHandle": 36
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 36,
+    "value": "Buffer('3330', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 37,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Cadence"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100008-DEADBEEF-0BAD-F00D-FEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 38,
+    "valueHandle": 39
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 39,
+    "value": "Buffer('3330', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 40,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Grade"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100009-DEADBEEF-0BAD-F00D-FEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 41,
+    "valueHandle": 42
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 42,
+    "value": "Buffer('313835', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 43,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Weight"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f410000A-DEADBEEF-0BAD-F00D-FEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 44,
+    "valueHandle": 45
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 45,
+    "value": "Buffer('3331', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 46,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Age"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f410000B-DEADBEEF-0BAD-F00D-FEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 47,
+    "valueHandle": 48
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 48,
+    "value": "Buffer('4d616c65', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 49,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Gender"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f410000C-DEADBEEF-0BAD-F00D-FEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 50,
+    "valueHandle": 51
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 51,
+    "value": "Buffer('313234', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 52,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Heart Rate"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f410000D-DEADBEEF-0BAD-F00D-FEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 53,
+    "valueHandle": 54
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 54,
+    "value": "Buffer('4d616c65', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 55,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "METs"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f410000E-DEADBEEF-0BAD-F00D-FEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 56,
+    "valueHandle": 57
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 57,
+    "value": "Buffer('4d616c65', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 58,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Power"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f410000F-DEADBEEF-0BAD-F00D-FEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 59,
+    "valueHandle": 60
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 60,
+    "value": "Buffer('313039', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 61,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Heart Rate Avg"
+  },
+  {
+    "type": "characteristic",
+    "uuid": "0d27f4100007-DEADBEEF-0BAD-F00D-FEED",
+    "properties": 2,
+    "secure": 0,
+    "startHandle": 62,
+    "valueHandle": 63
+  },
+  {
+    "type": "characteristicValue",
+    "handle": 63,
+    "value": "Buffer('313536', 'hex')"
+  },
+  {
+    "type": "descriptor",
+    "handle": 64,
+    "uuid": "2901",
+    "properties": 2,
+    "secure": 0,
+    "value": "Heart Rate Max"
+  }
+]
+Fri, 24 Jan 2014 19:38:56 GMT bleno servicesSet
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble buffer = "accept 71:C7:86:1F:AD:89\n"
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble line = accept 71:C7:86:1F:AD:89
+Fri, 24 Jan 2014 19:39:05 GMT bindings accepted 71:C7:86:1F:AD:89
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble buffer = "security low\ndata 028700\n"
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble line = security low
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble line = data 028700
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble handing request: 028700
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble response: 038700
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble send: 038700
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble buffer = "data 0801000500002a\n"
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble line = data 0801000500002a
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble handing request: 0801000500002a
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble read by type: startHandle = 0x1, endHandle = 0x5, uuid = 0x2a00
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble response: 0913030054727562756e74752d4865646765486f67
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble send: 0913030054727562756e74752d4865646765486f67
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble buffer = "data 0804000500002a\n"
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble line = data 0804000500002a
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble handing request: 0804000500002a
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble read by type: startHandle = 0x4, endHandle = 0x5, uuid = 0x2a00
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble response: 010804000a
+Fri, 24 Jan 2014 19:39:05 GMT l2cap-ble send: 010804000a
+Fri, 24 Jan 2014 19:39:10 GMT l2cap-ble buffer = "data 0a0800\n"
+Fri, 24 Jan 2014 19:39:10 GMT l2cap-ble line = data 0a0800
+Fri, 24 Jan 2014 19:39:10 GMT l2cap-ble handing request: 0a0800
+Fri, 24 Jan 2014 19:39:10 GMT l2cap-ble read response: 0b54727565204669746e657373
+Fri, 24 Jan 2014 19:39:10 GMT l2cap-ble send: 0b54727565204669746e657373
+Fri, 24 Jan 2014 19:39:14 GMT l2cap-ble buffer = "data 0a0800\n"
+Fri, 24 Jan 2014 19:39:14 GMT l2cap-ble line = data 0a0800
+Fri, 24 Jan 2014 19:39:14 GMT l2cap-ble handing request: 0a0800
+Fri, 24 Jan 2014 19:39:14 GMT l2cap-ble read response: 0b54727565204669746e657373
+Fri, 24 Jan 2014 19:39:14 GMT l2cap-ble send: 0b54727565204669746e657373
+Fri, 24 Jan 2014 19:39:17 GMT l2cap-ble buffer = "data 0a0b00\n"
+Fri, 24 Jan 2014 19:39:17 GMT l2cap-ble line = data 0a0b00
+Fri, 24 Jan 2014 19:39:17 GMT l2cap-ble handing request: 0a0b00
+Fri, 24 Jan 2014 19:39:17 GMT l2cap-ble read response: 0b56657261637469747920585858
+Fri, 24 Jan 2014 19:39:17 GMT l2cap-ble send: 0b56657261637469747920585858
+Fri, 24 Jan 2014 19:39:20 GMT l2cap-ble buffer = "data 0a0b00\n"
+Fri, 24 Jan 2014 19:39:20 GMT l2cap-ble line = data 0a0b00
+Fri, 24 Jan 2014 19:39:20 GMT l2cap-ble handing request: 0a0b00
+Fri, 24 Jan 2014 19:39:20 GMT l2cap-ble read response: 0b56657261637469747920585858
+Fri, 24 Jan 2014 19:39:20 GMT l2cap-ble send: 0b56657261637469747920585858
+Fri, 24 Jan 2014 19:39:33 GMT l2cap-ble buffer = "disconnect 71:C7:86:1F:AD:89\n"
+Fri, 24 Jan 2014 19:39:33 GMT l2cap-ble line = disconnect 71:C7:86:1F:AD:89
+Fri, 24 Jan 2014 19:39:33 GMT bindings disconnected 71:C7:86:1F:AD:89
